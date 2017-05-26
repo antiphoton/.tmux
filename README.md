@@ -11,24 +11,14 @@ Installation
 Requirements:
 
   - tmux **`>= 2.1`** running inside Linux, Mac, OpenBSD or Cygwin
-  - outside of tmux, `$TERM` must be set to `xterm-256color`
 
-To install, run the following from your terminal: (you may want to backup your
-existing `~/.tmux.conf` first)
-
-```
-$ cd
-$ git clone https://github.com/gpakosz/.tmux.git
-$ ln -s -f .tmux/.tmux.conf
-$ cp .tmux/.tmux.conf.local .
-```
-
-Then proceed to [customize] your `~/.tmux.conf.local` copy.
+1. $ `$ git clone https://github.com/antiphoton/tmux_conf.git`
+1. $ `ln -s $PWD/tmux_conf/.tmux.conf ~/.tmux.conf`
+1. $ `ln -s $PWD/tmux_conf/.tmux.conf.local ~/.tmux.conf.local`
+1. Set `$TERM` to `x-term-256color`
+1. Set `$EDITOR` to `vim`
 
 [customize]: #enabling-the-powerline-look
-
-If you're a Vim user, setting the `$EDITOR` environment variable to `vim` will
-enable and further customize the vi-style key bindings (see tmux manual).
 
 Troubleshooting
 ---------------
