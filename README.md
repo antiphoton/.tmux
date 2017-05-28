@@ -12,9 +12,9 @@ Requirements:
 
   - tmux **`>= 2.1`** running inside Linux, Mac, OpenBSD or Cygwin
 
-1. $ `$ git clone https://github.com/antiphoton/tmux_conf.git`
-1. $ `ln -s $PWD/tmux_conf/.tmux.conf ~/.tmux.conf`
-1. $ `ln -s $PWD/tmux_conf/.tmux.conf.local ~/.tmux.conf.local`
+1. `$ git clone https://github.com/antiphoton/tmux_conf.git`
+1. `$ ln -s $PWD/tmux_conf/.tmux.conf ~/.tmux.conf`
+1. `$ ln -s $PWD/tmux_conf/.tmux.conf.local ~/.tmux.conf.local`
 1. Set `$TERM` to `x-term-256color`
 1. Set `$EDITOR` to `vim`
 
